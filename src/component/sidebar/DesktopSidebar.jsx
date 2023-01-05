@@ -119,7 +119,7 @@ const DesktopSidebar = () => {
 								<p className="text-sm font-normal text-[#667085]">olivia@untitledui.com</p>
 							</div>
 
-							<div>{<Logout />}</div>
+							<div className='cursor-pointer'>{<Logout />}</div>
 						</div>
 					</div>
 
