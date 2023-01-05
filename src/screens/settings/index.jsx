@@ -34,7 +34,7 @@ const Settings = () => {
                         menuList?.map((item, index) => (
                             <li
                                 key={index}
-                                className={`${index === menuList?.length - 1 ? 'border-0 w-[40px]' : 'border-r-[1px]'} h-[50px] w-full min-w-[95px] py-2 px-4 text-sm font-medium text-[#344054] hover:bg-[#F9FAFB] hover:text-[#1D2939] cursor-pointer`}
+                                className={`${index === menuList?.length - 1 ? 'border-0 w-[40px]' : 'border-r-[1px]'} h-[50px] w-full min-w-[95px] py-2 pr-4 max-[768px]:text-center md:px-4 text-sm font-medium text-[#344054] hover:bg-[#F9FAFB] hover:text-[#1D2939] cursor-pointer`}
                             >{item}</li>
                         ))
                     }

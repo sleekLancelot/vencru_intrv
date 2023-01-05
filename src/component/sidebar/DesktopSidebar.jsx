@@ -44,7 +44,7 @@ const DesktopSidebar = () => {
 			</div>
 
 
-			<aside className={`w-[280px] z-50 border-r-[1px] border-[rgba(52,64,84,0.2)] border-solid absolute inset-y-0 left-0 ${showNavbar ? 'transform -translate-x-0 right-0' : 'transform -translate-x-full'} md:relative md:translate-x-0 transition duration-200 ease-in-out`} aria-label="Sidebar">
+			<aside className={`w-[280px] z-50 bg-[#fff] border-r-[1px] border-[rgba(52,64,84,0.2)] border-solid fixed md:absolute inset-y-0 left-0 ${showNavbar ? 'transform -translate-x-0 right-0' : 'transform -translate-x-full'} md:relative md:translate-x-0 transition duration-200 ease-in-out`} aria-label="Sidebar">
 				<div className='px-5 my-6 flex justify-between items-center w-48'>
 					<img src={Logo} alt="untitled_logo" />
 					<span className='text-xl font-semibold'>Untitled UI</span>
@@ -53,7 +53,7 @@ const DesktopSidebar = () => {
 					
 
 					<ul className="space-y-2">
-						<div className="w-[170px] flex relative">
+						<div className="w-[100%] flex relative">
 							<div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
 								<Search />
 							</div>
