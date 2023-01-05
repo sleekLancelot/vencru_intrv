@@ -7,6 +7,7 @@ import Avatar_4 from './Avatar-4.png'
 import Avatar_5 from './Avatar-5.png'
 import Avatar_6 from './Avatar-6.png'
 import Avatar_7 from './Avatar-7.png'
+import Playback from './Button.png'
 
 export {
     Logo,
@@ -18,4 +19,5 @@ export {
     Avatar_5,
     Avatar_6,
     Avatar_7,
+    Playback,
 }

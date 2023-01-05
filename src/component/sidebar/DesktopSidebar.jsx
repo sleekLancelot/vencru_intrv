@@ -1,5 +1,5 @@
 import React, { useCallback, useMemo, useState } from 'react'
-import { Dashboard, GirlSmiling, Hamburger, Home, Logo, Logout, NavFooterAvatar, Projects, Reporting, Search, SettingIcon, Support, Tasks, UsersIcon } from '../../assets'
+import { Dashboard, GirlSmiling, Hamburger, Home, Logo, Logout, NavFooterAvatar, Playback, Projects, Reporting, Search, SettingIcon, Support, Tasks, UsersIcon } from '../../assets'
 
 const DesktopSidebar = () => {
 	const [showNavbar, setShowNavbar] = useState(false)
@@ -99,11 +99,18 @@ const DesktopSidebar = () => {
 						<p className='text-sm text-[#667085]'>
 							Check out the new dashboard view. Pages now load faster. 
 						</p>
-						<img
-							src={GirlSmiling}
-							alt="girl-smiling"
-							className='rounded-md w-[200px] h-[140px]'
-						/>
+						<div className="relative">
+							<img
+								src={GirlSmiling}
+								alt="girl-smiling"
+								className='rounded-md w-[200px] h-[140px]'
+							/>
+							<img
+								src={Playback}
+								alt="play-button"
+								className='absolute bottom-2 left-2 rounded-md w-[50px] h-[50px]'
+							/>
+						</div>
 						<div className="flex justify-between items-center w-[90%]">
 							<p className="text-sm font-semibold leading-5 text-[#667085]">Dismiss</p>
 							<p className="text-sm font-semibold leading-5 text-[#6941C6]">What's new?</p>
