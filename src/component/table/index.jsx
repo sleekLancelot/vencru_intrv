@@ -65,29 +65,29 @@ const Table = () => {
             </thead>
 
             <tbody>
-                <tr class="bg-white border-b hover:bg-gray-50">
-                    <th scope="row" class="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                <tr className="bg-white border-b hover:bg-gray-50">
+                    <th scope="row" className="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
                         <input id="checkbox-all-search" type='checkbox' className="mr-2 w-4 h-4 cursor-pointer text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 focus:ring-2" />
                         <p>Basic Plan - Dec 2022</p>
                     </th>
-                    <td class="px-6 py-4">
+                    <td className="px-6 py-4">
                         USD $10.00
                     </td>
-                    <td class="px-6 py-4">
+                    <td className="px-6 py-4">
                         DEC, 1 2022
                     </td>
-                    <td class="flex items-center px-4 py-1 my-6 rounded-2xl bg-[#ECFDF3]">
+                    <td className="flex items-center px-4 py-1 my-6 rounded-2xl bg-[#ECFDF3]">
                         <p className='mr-2'><CheckMark /></p>
                         <p>paid</p>
                     </td>
-                    <td class="px-6 py-4 text-right">
-                          <div class="mt-3 flex -space-x-2 overflow-hidden">
-                            <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_1} alt=""/>
-                            <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_2} alt=""/>
-                            <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_3} alt=""/>
-                            <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_4} alt=""/>
-                            <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_5} alt=""/>
-                            <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_6} alt=""/>
+                    <td className="px-6 py-4 text-right">
+                          <div className="mt-3 flex -space-x-2 overflow-hidden">
+                            <img className="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_1} alt=""/>
+                            <img className="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_2} alt=""/>
+                            <img className="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_3} alt=""/>
+                            <img className="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_4} alt=""/>
+                            <img className="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_5} alt=""/>
+                            <img className="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_6} alt=""/>
                         </div>
                     </td>
                     <td>
@@ -95,29 +95,29 @@ const Table = () => {
                     </td>
                 </tr>
 
-                <tr class="bg-white border-b hover:bg-gray-50">
-                    <th scope="row" class="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                <tr className="bg-white border-b hover:bg-gray-50">
+                    <th scope="row" className="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
                         <input id="checkbox-all-search" type='checkbox' className="mr-2 w-4 h-4 cursor-pointer text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 focus:ring-2" />
                         <p>Basic Plan - NOV 2022</p>
                     </th>
-                    <td class="px-6 py-4">
+                    <td className="px-6 py-4">
                         USD $10.00
                     </td>
-                    <td class="px-6 py-4">
+                    <td className="px-6 py-4">
                         NOV, 1 2022
                     </td>
-                    <td class="flex items-center px-4 py-1 my-6 rounded-2xl bg-[#ECFDF3]">
+                    <td className="flex items-center px-4 py-1 my-6 rounded-2xl bg-[#ECFDF3]">
                         <p className='mr-2'><CheckMark /></p>
                         <p>paid</p>
                     </td>
-                    <td class="px-6 py-4 text-right">
-                          <div class="mt-3 flex -space-x-2 overflow-hidden">
-                            <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_1} alt=""/>
-                            <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_2} alt=""/>
-                            <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_3} alt=""/>
-                            <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_4} alt=""/>
-                            <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_5} alt=""/>
-                            <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_7} alt=""/>
+                    <td className="px-6 py-4 text-right">
+                          <div className="mt-3 flex -space-x-2 overflow-hidden">
+                            <img className="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_1} alt=""/>
+                            <img className="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_2} alt=""/>
+                            <img className="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_3} alt=""/>
+                            <img className="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_4} alt=""/>
+                            <img className="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_5} alt=""/>
+                            <img className="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_7} alt=""/>
                         </div>
                     </td>
                     <td>
@@ -125,28 +125,28 @@ const Table = () => {
                     </td>
                 </tr>
 
-                <tr class="bg-white border-b hover:bg-gray-50">
-                    <th scope="row" class="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                <tr className="bg-white border-b hover:bg-gray-50">
+                    <th scope="row" className="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
                         <input id="checkbox-all-search" type='checkbox' className="mr-2 w-4 h-4 cursor-pointer text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 focus:ring-2" />
                         <p>Basic Plan - OCT 2022</p>
                     </th>
-                    <td class="px-6 py-4">
+                    <td className="px-6 py-4">
                         USD $10.00
                     </td>
-                    <td class="px-6 py-4">
+                    <td className="px-6 py-4">
                         OCT, 1 2022
                     </td>
-                    <td class="flex items-center px-4 py-1 my-6 rounded-2xl bg-[#ECFDF3]">
+                    <td className="flex items-center px-4 py-1 my-6 rounded-2xl bg-[#ECFDF3]">
                         <p className='mr-2'><CheckMark /></p>
                         <p>paid</p>
                     </td>
-                    <td class="px-6 py-4 text-right">
-                          <div class="mt-3 flex -space-x-2 overflow-hidden">
-                            <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_1} alt=""/>
-                            <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_2} alt=""/>
-                            <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_3} alt=""/>
-                            <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_4} alt=""/>
-                            <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_5} alt=""/>
+                    <td className="px-6 py-4 text-right">
+                          <div className="mt-3 flex -space-x-2 overflow-hidden">
+                            <img className="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_1} alt=""/>
+                            <img className="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_2} alt=""/>
+                            <img className="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_3} alt=""/>
+                            <img className="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_4} alt=""/>
+                            <img className="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_5} alt=""/>
                         </div>
                     </td>
                     <td>
@@ -154,26 +154,26 @@ const Table = () => {
                     </td>
                 </tr>
 
-                <tr class="bg-white border-b hover:bg-gray-50">
-                    <th scope="row" class="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                <tr className="bg-white border-b hover:bg-gray-50">
+                    <th scope="row" className="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
                         <input id="checkbox-all-search" type='checkbox' className="mr-2 w-4 h-4 cursor-pointer text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 focus:ring-2" />
                         <p>Basic Plan - SEP 2022</p>
                     </th>
-                    <td class="px-6 py-4">
+                    <td className="px-6 py-4">
                         USD $10.00
                     </td>
-                    <td class="px-6 py-4">
+                    <td className="px-6 py-4">
                         SEP, 1 2022
                     </td>
-                    <td class="flex items-center px-4 py-1 my-6 rounded-2xl bg-[#ECFDF3]">
+                    <td className="flex items-center px-4 py-1 my-6 rounded-2xl bg-[#ECFDF3]">
                         <p className='mr-2'><CheckMark /></p>
                         <p>paid</p>
                     </td>
-                    <td class="px-6 py-4 text-right">
-                          <div class="mt-3 flex -space-x-2 overflow-hidden">
-                            <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_1} alt=""/>
-                            <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_2} alt=""/>
-                            <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_3} alt=""/>
+                    <td className="px-6 py-4 text-right">
+                          <div className="mt-3 flex -space-x-2 overflow-hidden">
+                            <img className="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_1} alt=""/>
+                            <img className="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_2} alt=""/>
+                            <img className="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_3} alt=""/>
                         </div>
                     </td>
                     <td>
@@ -181,27 +181,27 @@ const Table = () => {
                     </td>
                 </tr>
 
-                <tr class="bg-white border-b hover:bg-gray-50">
-                    <th scope="row" class="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                <tr className="bg-white border-b hover:bg-gray-50">
+                    <th scope="row" className="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
                         <input id="checkbox-all-search" type='checkbox' className="mr-2 w-4 h-4 cursor-pointer text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 focus:ring-2" />
                         <p>Basic Plan - AUG 2022</p>
                     </th>
-                    <td class="px-6 py-4">
+                    <td className="px-6 py-4">
                         USD $10.00
                     </td>
-                    <td class="px-6 py-4">
+                    <td className="px-6 py-4">
                         AUG, 1 2022
                     </td>
-                    <td class="flex items-center px-4 py-1 my-6 rounded-2xl bg-[#ECFDF3]">
+                    <td className="flex items-center px-4 py-1 my-6 rounded-2xl bg-[#ECFDF3]">
                         <p className='mr-2'><CheckMark /></p>
                         <p>paid</p>
                     </td>
-                    <td class="px-6 py-4 text-right">
-                          <div class="mt-3 flex -space-x-2 overflow-hidden">
-                            <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_1} alt=""/>
-                            <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_2} alt=""/>
-                            <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_3} alt=""/>
-                            <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_4} alt=""/>
+                    <td className="px-6 py-4 text-right">
+                          <div className="mt-3 flex -space-x-2 overflow-hidden">
+                            <img className="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_1} alt=""/>
+                            <img className="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_2} alt=""/>
+                            <img className="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_3} alt=""/>
+                            <img className="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_4} alt=""/>
                         </div>
                     </td>
                     <td>
@@ -209,27 +209,27 @@ const Table = () => {
                     </td>
                 </tr>
 
-                <tr class="bg-white border-b hover:bg-gray-50">
-                    <th scope="row" class="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                <tr className="bg-white border-b hover:bg-gray-50">
+                    <th scope="row" className="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
                         <input id="checkbox-all-search" type='checkbox' className="mr-2 w-4 h-4 cursor-pointer text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 focus:ring-2" />
                         <p>Basic Plan - JUL 2022</p>
                     </th>
-                    <td class="px-6 py-4">
+                    <td className="px-6 py-4">
                         USD $10.00
                     </td>
-                    <td class="px-6 py-4">
+                    <td className="px-6 py-4">
                         JUL, 1 2022
                     </td>
-                    <td class="flex items-center px-4 py-1 my-6 rounded-2xl bg-[#ECFDF3]">
+                    <td className="flex items-center px-4 py-1 my-6 rounded-2xl bg-[#ECFDF3]">
                         <p className='mr-2'><CheckMark /></p>
                         <p>paid</p>
                     </td>
-                    <td class="px-6 py-4 text-right">
-                          <div class="mt-3 flex -space-x-2 overflow-hidden">
-                            <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_1} alt=""/>
-                            <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_2} alt=""/>
-                            <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_3} alt=""/>
-                            <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_4} alt=""/>
+                    <td className="px-6 py-4 text-right">
+                          <div className="mt-3 flex -space-x-2 overflow-hidden">
+                            <img className="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_1} alt=""/>
+                            <img className="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_2} alt=""/>
+                            <img className="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_3} alt=""/>
+                            <img className="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_4} alt=""/>
                         </div>
                     </td>
                     <td>
@@ -237,26 +237,26 @@ const Table = () => {
                     </td>
                 </tr>
 
-                <tr class="bg-white border-b hover:bg-gray-50">
-                    <th scope="row" class="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                <tr className="bg-white border-b hover:bg-gray-50">
+                    <th scope="row" className="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
                         <input id="checkbox-all-search" type='checkbox' className="mr-2 w-4 h-4 cursor-pointer text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 focus:ring-2" />
                         <p>Basic Plan - JUN 2022</p>
                     </th>
-                    <td class="px-6 py-4">
+                    <td className="px-6 py-4">
                         USD $10.00
                     </td>
-                    <td class="px-6 py-4">
+                    <td className="px-6 py-4">
                         JUN, 1 2022
                     </td>
-                    <td class="flex items-center px-4 py-1 my-6 rounded-2xl bg-[#ECFDF3]">
+                    <td className="flex items-center px-4 py-1 my-6 rounded-2xl bg-[#ECFDF3]">
                         <p className='mr-2'><CheckMark /></p>
                         <p>paid</p>
                     </td>
-                    <td class="px-6 py-4 text-right">
-                          <div class="mt-3 flex -space-x-2 overflow-hidden">
-                            <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_1} alt=""/>
-                            <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_2} alt=""/>
-                            <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_3} alt=""/>
+                    <td className="px-6 py-4 text-right">
+                          <div className="mt-3 flex -space-x-2 overflow-hidden">
+                            <img className="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_1} alt=""/>
+                            <img className="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_2} alt=""/>
+                            <img className="inline-block h-6 w-6 rounded-full ring-2 ring-white" src={Avatar_3} alt=""/>
                         </div>
                     </td>
                     <td>

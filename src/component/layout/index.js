@@ -6,7 +6,7 @@ const Layout = ({children}) => {
     <div>
         <div className='relative min-h-screen md:flex'>
         <DesktopSidebar />
-        <div className='flex-1 px-5 py-10 md:p-10 bg-[#f5f5f5] min-h-screen relative md:top-0 top-20 overflow-x-hidden'>
+        <div className='flex-1 px-5 py-10 md:px-10 md:py-6 bg-[#f5f5f5] min-h-screen relative md:top-0 top-20 overflow-x-hidden'>
             {
                 children
             }
